@@ -15,11 +15,7 @@
       cols = width / resolution;
       rows = height / resolution;
       grid = make2DArray(cols, rows);
-      for (let i = 0; i < cols; i++) {
-        for (let j = 0; j < rows; j++) {
-          grid[i][j] = floor(random(2));
-        }
-      }
+      randomizeGrid();
     }
 
     function draw() {
@@ -62,6 +58,14 @@
         arr[i] = new Array(rows);
       }
       return arr;
+    }
+
+    function randomizeGrid() {
+      for (let i = 0; i < cols; i++) {
+        for (let j = 0; j < rows; j++) {
+          grid[i][j] = floor(random(2));
+        }
+      }
     }
 
     function countNeighbors(grid, x, y) {
