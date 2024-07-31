@@ -17,9 +17,3 @@ All cells are updated simultaneously in discrete time steps, known as generation
 
 - **No External Libraries:** Purely implemented in JavaScript, HTML, and CSS.
 - **HTML Table Grid:** Utilizes an HTML table to display the grid.
-
-## How to Run
-
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/conways-game-of-life.git
