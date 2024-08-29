@@ -4,7 +4,7 @@ This project is a straightforward implementation of Conway's Game of Life using 
 
 ## Overview
 
-Conway's Game of Life is a cellular automaton on a two-dimensional grid. It isn't a typical game with players but a simulation where each cell can either be alive or dead. Cells interact with their eight neighboring cells (in all directions, including diagonally) according to the following rules:
+Conway's Game of Life simulates cellular automata on a two-dimensional grid. It isn't a typical game with players, but a simulation where each cell can either be alive or dead. Cells interact with their eight neighboring cells (in all directions, including diagonally) according to the following rules:
 
 - A live cell with fewer than 2 live neighbors dies due to underpopulation.
 - A live cell with 2 or 3 live neighbors continues to live.
